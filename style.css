@@ -1,0 +1,175 @@
+
+
+
+
+.myForm {
+	
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 0.8em;
+width: 60%;
+padding: 1em;
+border: 1px solid #ccc;
+margin: 0 auto;
+clear:left;
+
+
+}
+
+h1{
+	
+	margin:1% 1% 1% 3%;
+	
+}
+
+.dalkur1{
+	
+		
+		width: 22%;
+		float: left;
+		margin:1% 1% 5% 3%;
+		
+			
+}
+
+.nedri-dalkur1{
+	
+		
+		width: 22%;
+		float: left;
+		margin:1% 1% 5% 3%;
+		
+			
+}
+
+.dalkur2{
+		
+		width: 22%;
+		float: left;
+		margin:1% 1% 5% 1%;
+	
+		
+}
+
+.nedri-dalkur2{
+		
+		width: 22%;
+		float: left;
+		margin:1% 1% 5% 1%;
+		
+		
+}
+
+.dalkur3{
+		
+		width: 22%;
+		float: left;
+		margin:1% 1% 5% 1%;
+		
+		
+}
+
+.nedri-dalkur3{
+		
+		width: 22%;
+		float: left;
+		margin:1% 1% 5% 1%;
+		
+		
+}
+
+.dalkur4{
+		
+		width: 22%;
+		float: left;
+		margin:1% 3% 5% 1%;
+		
+		
+}
+
+.nedri-dalkur4{
+		
+		width: 22%;
+		float: left;
+		margin:1% 3% 5% 1%;
+		
+		
+}
+
+
+
+
+.myForm * {
+	
+box-sizing: border-box;
+
+}
+
+
+
+.myForm fieldset {
+	
+border: none;
+padding: 0;
+
+}
+
+
+.efri-dalkar label{
+display: inline-block;	
+padding: 1%;
+font-weight: bold;
+width:40%;
+text-align:left;
+
+}
+
+.nedri-dalkar label{
+display:block;	
+text-align:center;
+padding:1%;
+font-weight:bold;
+	
+}
+
+.nedri-dalkar input{
+display:block;	
+margin: 2% auto;
+width: 54%;	
+border: 1px solid #ccc;	
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 0.9em;
+padding: 1%;
+	
+}
+
+
+.efri-dalkar input[type="text"],
+.efri-dalkar input[type="date"]{
+width: 54%;
+border: 1px solid #ccc;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 0.9em;
+padding: 1%;
+margin: 2%;
+
+}
+
+
+
+.myForm button {
+display:block;
+padding: 2% 5% 2% 5%;
+border-radius: 0.5em;
+background: #eee;
+border: none;
+font-weight: bold;
+margin: 1% auto;
+
+}
+
+.myForm button:hover {
+	
+background: #ccc;
+cursor: pointer;
+
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<link rel="stylesheet" style="text/css" href="style.css">
+<link rel="stylesheet" media="(max-width:800px)" href="mobilestyle.css">
+<title>Ferilefnapróf</title>
+
+
+
+</head>
+<body>
+
+
+
+	<form class="myForm" method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+
+	<h1>Ferilefnapróf</h1>
+	
+
+	<div class="efri-dalkar">
+	
+		<div class="dalkur1">
+			<label>Framkvæmt af</label>
+			<input type="text" required>
+		</div>
+		
+	
+		<div class="dalkur2">
+			<label>P<sub>25</sub> skekkja</label>
+			<input type="text"  required>
+		</div>
+		
+		
+		<div class="dalkur3">
+			<label>Dagsetning</label>
+			<input type="date" required>
+		</div>
+		
+
+		<div class="dalkur4">
+			<label>Staðsetning</label><p onload= "getLocation()" id="demo"></p>
+		</div>	
+		
+	</div>		
+		
+		
+	<div class="nedri-dalkar">	
+	
+		<div class="nedri-dalkur1">
+			<label>Staðsetning holu</label>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+		</div>	
+			
+		
+		<div class="nedri-dalkur2">
+			<label>Tími</label>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+		</div>
+
+
+		<div class="nedri-dalkur3">
+			<label>P</label>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+		</div>
+	
+		
+		<div class="nedri-dalkur4">
+			<label>Athugasemdir</label>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+			<input type="text" required>
+		</div>	
+		
+	</div>
+	
+
+	<p><button>Skrá</button></p>
+
+	</form>
+
+	
+
+
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else {
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+
+function showPosition(position) {
+    x.innerHTML = "Latitude: " + position.coords.latitude +
+    "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+
+</body>
+</html>
